@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F4B11D41BEB111500D4EB23 /* ident_server.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4B11C11BEB111500D4EB23 /* ident_server.m */; };
+		5F4B11D51BEB111500D4EB23 /* SBAppSwitcherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4B11C21BEB111500D4EB23 /* SBAppSwitcherModel.m */; };
+		5F4B11D61BEB111500D4EB23 /* SBUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4B11C31BEB111500D4EB23 /* SBUIController.m */; };
+		5F4B11D81BEB111500D4EB23 /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4B11C71BEB111500D4EB23 /* ZKSwizzle.m */; };
+		5F4B11DF1BEB11F300D4EB23 /* MultitaskView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F4B11DC1BEB11F300D4EB23 /* MultitaskView.mm */; };
+		5F4B11E01BEB11F300D4EB23 /* MultitaskViewCard.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F4B11DE1BEB11F300D4EB23 /* MultitaskViewCard.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5FFB3A591BDC46FD0080181F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5F4B11BC1BEB111500D4EB23 /* gridswitcher_build_deb.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = gridswitcher_build_deb.sh; sourceTree = "<group>"; };
+		5F4B11BD1BEB111500D4EB23 /* gridswitcher_install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = gridswitcher_install.sh; sourceTree = "<group>"; };
+		5F4B11BF1BEB111500D4EB23 /* gridswitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gridswitcher.h; sourceTree = "<group>"; };
+		5F4B11C01BEB111500D4EB23 /* ident_server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ident_server.h; sourceTree = "<group>"; };
+		5F4B11C11BEB111500D4EB23 /* ident_server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ident_server.m; sourceTree = "<group>"; };
+		5F4B11C21BEB111500D4EB23 /* SBAppSwitcherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBAppSwitcherModel.m; sourceTree = "<group>"; };
+		5F4B11C31BEB111500D4EB23 /* SBUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBUIController.m; sourceTree = "<group>"; };
+		5F4B11C61BEB111500D4EB23 /* ZKSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKSwizzle.h; sourceTree = "<group>"; };
+		5F4B11C71BEB111500D4EB23 /* ZKSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKSwizzle.m; sourceTree = "<group>"; };
+		5F4B11CA1BEB111500D4EB23 /* control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		5F4B11D11BEB111500D4EB23 /* gridswitcher.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = gridswitcher.plist; sourceTree = "<group>"; };
+		5F4B11D21BEB111500D4EB23 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5F4B11DB1BEB11F300D4EB23 /* MultitaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultitaskView.h; sourceTree = "<group>"; };
+		5F4B11DC1BEB11F300D4EB23 /* MultitaskView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MultitaskView.mm; sourceTree = "<group>"; };
+		5F4B11DD1BEB11F300D4EB23 /* MultitaskViewCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultitaskViewCard.h; sourceTree = "<group>"; };
+		5F4B11DE1BEB11F300D4EB23 /* MultitaskViewCard.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MultitaskViewCard.mm; sourceTree = "<group>"; };
+		5FFB3A5B1BDC46FD0080181F /* gridswitcher.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = gridswitcher.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FFB3A581BDC46FD0080181F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F4B11BE1BEB111500D4EB23 /* gridswitcher_source */ = {
+			isa = PBXGroup;
+			children = (
+				5F4B11BF1BEB111500D4EB23 /* gridswitcher.h */,
+				5F4B11C01BEB111500D4EB23 /* ident_server.h */,
+				5F4B11C11BEB111500D4EB23 /* ident_server.m */,
+				5F4B11C21BEB111500D4EB23 /* SBAppSwitcherModel.m */,
+				5F4B11C31BEB111500D4EB23 /* SBUIController.m */,
+				5F4B11DB1BEB11F300D4EB23 /* MultitaskView.h */,
+				5F4B11DC1BEB11F300D4EB23 /* MultitaskView.mm */,
+				5F4B11DD1BEB11F300D4EB23 /* MultitaskViewCard.h */,
+				5F4B11DE1BEB11F300D4EB23 /* MultitaskViewCard.mm */,
+				5F4B11C61BEB111500D4EB23 /* ZKSwizzle.h */,
+				5F4B11C71BEB111500D4EB23 /* ZKSwizzle.m */,
+			);
+			path = gridswitcher_source;
+			sourceTree = "<group>";
+		};
+		5F4B11C81BEB111500D4EB23 /* gridswitcher_staging */ = {
+			isa = PBXGroup;
+			children = (
+				5F4B11C91BEB111500D4EB23 /* DEBIAN */,
+				5F4B11CB1BEB111500D4EB23 /* Library */,
+			);
+			path = gridswitcher_staging;
+			sourceTree = "<group>";
+		};
+		5F4B11C91BEB111500D4EB23 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				5F4B11CA1BEB111500D4EB23 /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		5F4B11CB1BEB111500D4EB23 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				5F4B11CC1BEB111500D4EB23 /* Application Support */,
+				5F4B11CE1BEB111500D4EB23 /* MobileSubstrate */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		5F4B11CC1BEB111500D4EB23 /* Application Support */ = {
+			isa = PBXGroup;
+			children = (
+				5F4B11CD1BEB111500D4EB23 /* Switcher */,
+			);
+			path = "Application Support";
+			sourceTree = "<group>";
+		};
+		5F4B11CD1BEB111500D4EB23 /* Switcher */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Switcher;
+			sourceTree = "<group>";
+		};
+		5F4B11CE1BEB111500D4EB23 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				5F4B11CF1BEB111500D4EB23 /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		5F4B11CF1BEB111500D4EB23 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				5F4B11D11BEB111500D4EB23 /* gridswitcher.plist */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		5F4B11D31BEB111500D4EB23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5FFB3A521BDC46FD0080181F = {
+			isa = PBXGroup;
+			children = (
+				5F4B11BC1BEB111500D4EB23 /* gridswitcher_build_deb.sh */,
+				5F4B11BD1BEB111500D4EB23 /* gridswitcher_install.sh */,
+				5F4B11BE1BEB111500D4EB23 /* gridswitcher_source */,
+				5F4B11C81BEB111500D4EB23 /* gridswitcher_staging */,
+				5F4B11D21BEB111500D4EB23 /* README.md */,
+				5F4B11D31BEB111500D4EB23 /* Resources */,
+				5FFB3A5C1BDC46FD0080181F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FFB3A5C1BDC46FD0080181F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FFB3A5B1BDC46FD0080181F /* gridswitcher.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FFB3A5A1BDC46FD0080181F /* gridswitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FFB3A641BDC46FD0080181F /* Build configuration list for PBXNativeTarget "gridswitcher" */;
+			buildPhases = (
+				5FFB3A571BDC46FD0080181F /* Sources */,
+				5FFB3A581BDC46FD0080181F /* Frameworks */,
+				5FFB3A591BDC46FD0080181F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gridswitcher;
+			productName = Switcher;
+			productReference = 5FFB3A5B1BDC46FD0080181F /* gridswitcher.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FFB3A531BDC46FD0080181F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ethan Arbuckle";
+				TargetAttributes = {
+					5FFB3A5A1BDC46FD0080181F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 5FFB3A561BDC46FD0080181F /* Build configuration list for PBXProject "gridswitcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5FFB3A521BDC46FD0080181F;
+			productRefGroup = 5FFB3A5C1BDC46FD0080181F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FFB3A5A1BDC46FD0080181F /* gridswitcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FFB3A571BDC46FD0080181F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F4B11D41BEB111500D4EB23 /* ident_server.m in Sources */,
+				5F4B11D61BEB111500D4EB23 /* SBUIController.m in Sources */,
+				5F4B11D51BEB111500D4EB23 /* SBAppSwitcherModel.m in Sources */,
+				5F4B11D81BEB111500D4EB23 /* ZKSwizzle.m in Sources */,
+				5F4B11E01BEB11F300D4EB23 /* MultitaskViewCard.mm in Sources */,
+				5F4B11DF1BEB11F300D4EB23 /* MultitaskView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5FFB3A621BDC46FD0080181F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ethanarbuckle/Desktop/Switcher/Builds\n";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5FFB3A631BDC46FD0080181F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/ethanarbuckle/Desktop/Switcher/Builds\n";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FFB3A651BDC46FD0080181F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = Builds/;
+				DSTROOT = Builds/;
+				DYLIB_INSTALL_NAME_BASE = Builds/;
+				INSTALL_PATH = Builds/;
+				LD_DYLIB_INSTALL_NAME = Builds/gridswitcher.dylib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gridswitcher_staging/Library/MobileSubstrate/DynamicLibraries",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = gridswitcher;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		5FFB3A661BDC46FD0080181F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = Builds/;
+				DSTROOT = Builds/;
+				DYLIB_INSTALL_NAME_BASE = Builds/;
+				INSTALL_PATH = Builds/;
+				LD_DYLIB_INSTALL_NAME = Builds/gridswitcher.dylib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gridswitcher_staging/Library/MobileSubstrate/DynamicLibraries",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = gridswitcher;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FFB3A561BDC46FD0080181F /* Build configuration list for PBXProject "gridswitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FFB3A621BDC46FD0080181F /* Debug */,
+				5FFB3A631BDC46FD0080181F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FFB3A641BDC46FD0080181F /* Build configuration list for PBXNativeTarget "gridswitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FFB3A651BDC46FD0080181F /* Debug */,
+				5FFB3A661BDC46FD0080181F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FFB3A531BDC46FD0080181F /* Project object */;
+}

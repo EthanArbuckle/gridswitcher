@@ -1,0 +1,9 @@
+Package: com.get.hoes
+Name: gridswitcher
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: gridswitcher
+Maintainer: ethan arbuckle
+Author: ethan arbuckle
+Section: Tweaks
+Version: 0.1
